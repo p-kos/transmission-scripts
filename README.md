@@ -2,7 +2,9 @@
 
 ## Clone
 Clone the project by
+
 	git clone https://github.com/p-kos/transmission-scripts.git
+
 ## Configuration
 
 edit the file /etc/transmission-daemon/settings.json and change the following
