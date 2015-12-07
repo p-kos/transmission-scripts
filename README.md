@@ -1,5 +1,8 @@
 # transmission-scripts
 
+## Clone
+Clone the project by
+	git clone https://github.com/p-kos/transmission-scripts.git
 ## Configuration
 
 edit the file /etc/transmission-daemon/settings.json and change the following
@@ -9,12 +12,12 @@ edit the file /etc/transmission-daemon/settings.json and change the following
 change 
 
 	"script-torrent-done-enabled": false, 
-    	"script-torrent-done-filename": "",
+	"script-torrent-done-filename": "",
 
 by
  
 	"script-torrent-done-enabled": true, 
-    	"script-torrent-done-filename": "/home/pi/transmission-scripts/onfinish.sh", 
+	"script-torrent-done-filename": "/home/pi/transmission-scripts/onfinish.sh", 
 
 then reload the transmission-daemon
 
