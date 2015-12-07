@@ -5,6 +5,12 @@ Clone the project by
 
 	git clone https://github.com/p-kos/transmission-scripts.git
 
+## Permissions
+Add the permissions to execute the file by
+
+	cd transmission-scripts
+	sudo chmod a+x onfinish.sh
+
 ## Configuration
 
 edit the file /etc/transmission-daemon/settings.json and change the following
