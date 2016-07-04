@@ -13,6 +13,19 @@ Add the permissions to execute the file by
 
 ## Configuration
 
+Edit the file onfinish.sh to set the user and password, target folder, log file.
+	
+	USER=transmission
+	PASS=XXXX
+	PORT=9091
+	TARGET_FOLDER=/mnt/Media/New/
+	LOGFILE=~/downloaded.log
+
+Create the target folder, and set the permissions (it is important to create the folder from raspberry other wise the tramission will not copy the file)
+
+	sudo mkdir /mnt/Media/New
+	sudo chmod 777 /mnt/Media/New
+
 edit the file /etc/transmission-daemon/settings.json and change the following
 
 	sudo nano /etc/transmission-daemon/settings.json
