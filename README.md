@@ -43,12 +43,12 @@ by
 then reload the transmission-daemon
 
 
-	service tranmission-daemon reload
+	sudo service transmission-daemon reload
 
 
 or
 
-	sudo /etc/init.d/tranmission-daemon reload
+	sudo /etc/init.d/transmission-daemon reload
 
 ## Author
 
